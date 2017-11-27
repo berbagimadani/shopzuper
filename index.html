@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+
+        <link rel="stylesheet" href="dist/css/phonon.min.css" /> 
+
+        <!--  custome  -->
+        <link rel="stylesheet" href="dist/css/theme.css" />
+        <title>App</title>
+    </head>
+    <body>
+
+        <!-- Panel tags go here -->
+
+        <!-- Side Panel tags go here -->
+        <div class="side-panel side-panel-left" data-expose-aside="none" data-disable="right" data-page="home, pagetwo" id="side-panel-example">
+            <header class="header-bar">
+                <button class="btn pull-right icon icon-close" data-side-panel-close="true"></button>
+                <div class="pull-left">
+                    <h1 class="title">Panel</h1>
+                </div>
+            </header>
+
+            <div class="content">
+                <ul class="list">
+                    <li><a href="#" class="padded-list">Profile</a></li>
+                    <li><a href="#" class="padded-list">About</a></li>
+                    <li><a href="#" class="padded-list">Settings</a></li>
+                    <li><a href="#" class="padded-list">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Notification tags go here -->
+
+        <!-- Dialog tags go here -->
+        <div class="dialog" data-cancelable="false" id="custom-dialog">
+            <div class="content">
+                <div class="padded-full">
+                    <h3>Hey! <i class="icon icon-info-outline"></i></h3>
+                    <p>Do you like chocolate?</p>
+                </div>
+            </div>
+            <ul class="buttons">
+                <li><a class="btn btn-flat primary btn-confirm" data-dialog-close="true">YES</a></li>
+                <li><a class="btn btn-flat negative btn-cancel" data-dialog-close="true">NO</a></li>
+            </ul>
+        </div>
+
+        <!-- Popover tags go here -->
+
+        <!-- the home page is the default one. This page does not require to call its content because we define on its tag.-->
+        <home data-page="true">
+
+           <header class="header-bar">
+                 <button class="btn icon icon-menu pull-left" data-side-panel-id="side-panel-example"></button>
+                <div class="center">
+                    <h1 class="title"><strong>Zuper Shop</strong></h1>
+                </div>
+                <a class="btn pull-right icon icon-check" data-dialog-id="custom-dialog"></a>
+            </header>
+
+            <div class="content">
+                <div class="padded-full">
+                
+                    <div class="row">
+                        <h1>Lorem Ipsum</h1>
+                        <div class="phone-12 tablet-6 column" style="background-color:#ccc;">
+                            <img src="http://rumahamika.com/wp-content/uploads/2017/11/minyak-argan-amika-2-500x390.jpg" style="width:100%">
+                        </div> 
+                        <div class="phone-12 tablet-6 column">
+                            
+                            <div class="custome-list">
+                                <ul class="list"> 
+                                    <li class="item-expanded"> 
+                                        <a class="pull-left">Kode</a>
+                                        <div class="item-content">
+                                            <span class="title"><strong>44444</strong></span> 
+                                        </div>
+                                    </li>
+                                    <li class="item-expanded"> 
+                                        <a class="pull-left">Harga</a>
+                                        <div class="item-content">
+                                            <span class="title"><strong>Rp 7000.0000</strong></span> 
+                                        </div>
+                                    </li>
+                                    <li class="item-expanded"> 
+                                        <a class="pull-left">Stock</a>
+                                        <div class="item-content">
+                                            <span class="title"><strong>12</strong></span> 
+                                        </div>
+                                    </li>
+                                    <li class="item-expanded"> 
+                                        <a class="pull-left">Berat</a>
+                                        <div class="item-content">
+                                            <span class="title">12 kg</span> 
+                                        </div>
+                                    </li> 
+                                    <li>
+                                        <button class="btn fit-parent primary">
+                                            <i class="icon icon-edit"></i>
+                                            Beli Sekarang
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="padded-bottom"></div>
+                    
+                    <div class="row">
+                        <div class="tablet-6 column">
+                            <ul class="list"> 
+                                <li class="item-expanded"> 
+                                    <a href="#action" class="pull-left icon icon-edit"></a>
+                                    <div class="item-content">
+                                        <span class="body">TELP</span>
+                                        <span class="title">089898999</span>
+                                    </div>
+                                </li> 
+                            </ul>
+                        </div>
+                        <div class="tablet-6 column">
+                            <ul class="list"> 
+                                <li class="item-expanded"> 
+                                    <a href="#action" class="pull-left icon icon-edit"></a>
+                                    <div class="item-content">
+                                        <span class="body">SMS</span>
+                                        <span class="title">089898999</span>
+                                    </div>
+                                </li> 
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="padded-bottom"></div>
+                    <div class="row">
+                        <div class="tablet-6 column">
+                            <ul class="list"> 
+                                <li class="item-expanded"> 
+                                    <a href="#action" class="pull-left icon icon-edit"></a>
+                                    <div class="item-content">
+                                        <span class="body">WHATSAP</span>
+                                        <span class="title">089898999</span>
+                                    </div>
+                                </li> 
+                            </ul>
+                        </div>
+                        <div class="tablet-6 column">
+                            <ul class="list"> 
+                                <li class="item-expanded"> 
+                                    <a href="#action" class="pull-left icon icon-edit"></a>
+                                    <div class="item-content">
+                                        <span class="body">LINE</span>
+                                        <span class="title">089898999</span>
+                                    </div>
+                                </li> 
+                            </ul>
+                        </div> 
+                    </div>
+
+
+                    <div class="padded-bottom"></div>
+
+                    <div class="row text-center">
+                        <div class="phone-12 tablet-12 column">
+                            Copyright © 2017 Super Shop
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </home>
+
+
+
+
+        <!-- scripts --> 
+        <script src="dist/js/phonon-core.min.js"></script>
+
+        <!-- our app config -->
+        <script src="dist/js/components/side-panels.min.js"></script>
+        <script src="dist/js/components/dialogs.min.js"></script>
+         <script src="dist/js/components/preloaders.min.js"></script>
+        <script>
+            phonon.options({
+                navigator: {
+                    defaultPage: 'home',
+                    animatePages: true
+                },
+                i18n: null
+            });
+
+            phonon.navigator().start();
+        </script>
+
+    </body>
+</html>

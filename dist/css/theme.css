@@ -1,0 +1,15 @@
+.custome-list .list .item-expanded .pull-left, .list .item-expanded .pull-right {
+    width: 78px;
+    height: 38px;
+    line-height: 38px;
+}
+
+.custome-list .list .item-expanded {
+    height: 28px;
+    line-height: 38px;
+}
+.custome-list .list li .item-content {
+    display: inline-block;
+    padding: 2px 15px;
+    line-height: 78px;
+}
