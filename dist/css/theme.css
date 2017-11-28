@@ -28,3 +28,6 @@ ul.list.custome-hover-li li:hover{
 .table.custome-table td{ 
   text-align: left;
 }
+.custome-cart-item{
+  padding: 10px;
+}
