@@ -44,7 +44,7 @@ ul.list.custome-hover-li li:hover{
   /*body.web{
     width: 60%;
     margin: 0 auto;
-  }*/
+  }
   .content {
     position: absolute;
     top: 0;
@@ -53,6 +53,11 @@ ul.list.custome-hover-li li:hover{
     left: 20%;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+  }*/
+  .padded-full.responsive-desk{
+    margin: 32px;
+    width: 60%;
+    margin: 0 auto;
   }
   
 }
