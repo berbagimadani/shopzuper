@@ -41,9 +41,18 @@ ul.list.custome-hover-li li:hover{
 
 @media (min-width: 1281px) {
   
-  body.web{
+  /*body.web{
     width: 60%;
     margin: 0 auto;
+  }*/
+  .content {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    bottom: 0;
+    left: 20%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
   }
   
 }
