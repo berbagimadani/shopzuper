@@ -13,3 +13,18 @@
     padding: 2px 15px;
     line-height: 78px;
 }
+.btn.custome-btn-order{
+  text-transform: none;
+  font-size: 22px;
+  line-height: 48px;
+}
+ul.list.custome-hover-li li:hover{
+  background: #eee
+}
+.table.custome-table{
+  width: 100%;
+  border: 1px solid #ddd; 
+}
+.table.custome-table td{ 
+  text-align: left;
+}

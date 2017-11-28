@@ -17,7 +17,7 @@
         <!-- Panel tags go here -->
 
         <!-- Side Panel tags go here -->
-        <div class="side-panel side-panel-left" data-expose-aside="none" data-disable="right" data-page="home" id="side-panel-example">
+        <div class="side-panel side-panel-left" data-expose-aside="none" data-disable="right" data-page="home, pagetwo" id="side-panel-example">
             <header class="header-bar">
                 <button class="btn pull-right icon icon-close" data-side-panel-close="true"></button>
                 <div class="pull-left">
@@ -66,56 +66,41 @@
 
             <div class="content">
                 <div class="padded-full">
-                
-                    <div class="row">
-                        <h1>Lorem Ipsum</h1>
-                        <div class="phone-12 tablet-6 column" style="background-color:#ccc;">
-                            <img src="http://rumahamika.com/wp-content/uploads/2017/11/minyak-argan-amika-2-500x390.jpg" style="width:100%">
-                        </div> 
-                        <div class="phone-12 tablet-6 column">
-                            
-                            <div class="custome-list">
-                                <ul class="list"> 
-                                    <li class="item-expanded"> 
-                                        <a class="pull-left">Kode</a>
-                                        <div class="item-content">
-                                            <span class="title"><strong>44444</strong></span> 
-                                        </div>
-                                    </li>
-                                    <li class="item-expanded"> 
-                                        <a class="pull-left">Harga</a>
-                                        <div class="item-content">
-                                            <span class="title"><strong>Rp 7000.0000</strong></span> 
-                                        </div>
-                                    </li>
-                                    <li class="item-expanded"> 
-                                        <a class="pull-left">Stock</a>
-                                        <div class="item-content">
-                                            <span class="title"><strong>12</strong></span> 
-                                        </div>
-                                    </li>
-                                    <li class="item-expanded"> 
-                                        <a class="pull-left">Berat</a>
-                                        <div class="item-content">
-                                            <span class="title">12 kg</span> 
-                                        </div>
-                                    </li> 
-                                    <li>
-                                        <a href="cart.html">
-                                        <button class="btn custome-btn-order fit-parent primary">
-                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                            Beli Sekarang
-                                        </button>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="padded-bottom"></div>
                     
+                    <!-- cart -->
+                    <table class="table custome-table">
+                        <tr>
+                            <thead>
+                                <th>Gambar</th>
+                                <th>Barang</th>
+                                <th>JML</th>
+                                <th>Berat</th>
+                                <th>Total</th>
+                            </thead>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td><img src="http://rumahamika.com/wp-content/uploads/2017/11/minyak-argan-amika-2-100x78.jpg"></td>
+                                <td>Armika Argan Oil Order</td>
+                                <td><input type="text" value="2"></td>
+                                <td>1kg</td>
+                                <td>Rp 7000.000</td>
+                            </tr> 
+                        </tbody>
+                        <tr>
+                            <thead>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>1</th>
+                                <th>1kg</th>
+                                <th>7000.0000</th>
+                            </thead>
+                        </tr>
+                    </table>
+                    <!--  end cart -->
+
+                    <div class="padded-bottom"></div> 
+
                     <!-- contact -->
                     <div class="row">
                         <div class="tablet-6 column">
@@ -188,7 +173,7 @@
                             </ul>
                         </div> 
                     </div>
-                    <!--  end contac -->
+                    <!--  end contact -->
 
                     <div class="padded-bottom"></div>
 
@@ -200,6 +185,8 @@
                 </div>
             </div>
         </home>
+
+
 
 
         <!-- scripts --> 
