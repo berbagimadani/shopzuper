@@ -31,9 +31,10 @@ ul.list.custome-hover-li li:hover{
 .custome-cart-item{
   padding: 10px;
 }
-
-
-
+.custome-box-images{
+  border:1px solid #ccc;
+  padding: 10px;
+}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -56,10 +57,13 @@ ul.list.custome-hover-li li:hover{
   }*/
   .padded-full.responsive-desk{
     margin: 32px;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
-  
+  .custome-box-images{
+    border:1px solid #ccc;
+    padding: 50px;
+  }
 }
 
 /* 
@@ -68,9 +72,15 @@ ul.list.custome-hover-li li:hover{
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
-  
+  .padded-full.responsive-desk{
+    margin: 32px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .custome-box-images{
+    border:1px solid #ccc;
+    padding: 50px;
+  }
 }
 
 /* 
