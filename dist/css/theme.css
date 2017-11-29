@@ -35,6 +35,23 @@ ul.list.custome-hover-li li:hover{
   border:1px solid #ccc;
   padding: 10px;
 }
+.box-img{
+  float: left;
+  width: 100%;
+  border:1px solid #ccc;
+  padding: 20px;
+}
+.box-img .img-responsive{
+  width: 60%;
+}
+h3{
+  line-height: 30px;
+}
+.custome-notic{
+  font-weight: bold;
+}
+
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
